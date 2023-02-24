@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>psde2.MDC.Subd_poly</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A polygon feature class of subdivision boundaries within Miami-Dade County. This layer was derived by digitizing marked copies of the Engineering Section Sheets containing subdivision boundary information. This layer should not be used by application requiring accurate survey information.Updated: Weekly-Sat The data was created using: Projected Coordinate System: WGS_1984_Web_Mercator_Auxiliary_SphereProjection: Mercator_Auxiliary_Sphere</abstract>
+            <purpose>A polygon feature class of subdivision boundaries within Miami-Dade County.</purpose>
+        </descript>
+        <spdom>
+            <bounding>
+                <westbc>-80.675761</westbc>
+                <eastbc>-80.109463</eastbc>
+                <northbc>25.977489</northbc>
+                <southbc>25.227056</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Florida</themekey>
+                <themekey>Miami-Dade County</themekey>
+                <themekey>MDC</themekey>
+                <themekey>County Government</themekey>
+                <themekey>Local Government</themekey>
+                <themekey>WGS84</themekey>
+                <themekey>Property</themekey>
+                <themekey>Subdivision Boundary</themekey>
+                <themekey>Parcel</themekey>
+                <themekey>Lot</themekey>
+                <themekey>RER</themekey>
+                <themekey>Regulatory and Economic Resources</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>None</useconst>
+        <native> Version 6.2 (Build 9200) ; Esri ArcGIS 10.7.1.11595</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>0</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>psde2.MDC.Subd_poly</enttypl>
+                <enttypd>Attribute table of SUBD.</enttypd>
+                <enttypds>ARC/INFO</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>TTRRSS</attrlabl>
+                <attrdomv>
+                                        
+                    <edom/>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PB</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>PG</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>TNUM</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDITOR_NAME</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>EDIT_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SUBCODE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MOD_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MOD_TYPE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SOURCE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MODIFY_BY</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>MODIFY_DATE</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        
+                    <udom>Coordinates defining the features.</udom>
+                                    
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STArea()</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Shape.STLength()</attrlabl>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>In addition to the standard Arc/Info items, the following fields are for
+the items found in the attribute table.
+
+
+ITEM                  DESCRIPTION
+====                   ===========
+TTRRSS              Township-Range-Section
+PB                         Plat Book
+PG                        Plat Book Page
+NAME                   Subdivision Name
+TNUM                  Tentative Number
+SUBCOD              Subdivision Identifier for Prop App
+MOD-DATE          Date of Last Modification (legacy field)
+MOD-TYPE          Type of Last Modification (legacy field)
+(A - Attribute
+G - Graphic
+B - Both)
+SOURCE                Party that performed data entry (legacy field)
+(A - ASI
+M - Metro-Dade
+D - FPL/DIGITIZE
+C - FPL/COGO)
+EDITOR_NAME   Editor name
+EDIT_DATE         Edit date
+
+
+ANNOTATION LEVELS
+=================
+NONE</eaover>
+            <eadetcit>Not Available</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distliab>See access and use constraints information.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Feature Class</formname>
+                </digtinfo>
+                <digtopt/>
+            </digform>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20200227</metd>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
